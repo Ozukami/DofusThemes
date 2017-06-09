@@ -3,12 +3,12 @@
         "author" : "Ozuk",
         "name" : "Theme Akatsuki",
         "keyWords" : "akatsuki,purple",
-        "version" : "1.1.4",
-        "dofusVersion" : "2.39",
+        "version" : "1.1.5",
+        "dofusVersion" : "2.40",
         "description" : "Thème Dofus aux couleurs d'Akatsuki (Log Horizon)",
         "url" : "https://github.com/Ozukami/Akatsuki/blob/master/Akatsuki.zip?raw=true",
         "previewUrl" : "https://github.com/Ozukami/Akatsuki/blob/master/preview.png?raw=true",
         "creationDate" : "24/10/2016",
-        "modificationDate" : "07/01/2016"
+        "modificationDate" : "15/02/2016"
     }
 ]
