@@ -19,31 +19,40 @@ center {
 	font-weight: bold;
 	text-align: center;
 }
+
+redcenter {
+	font-family: RobotoCondensed;
+	font-size: 22px;
+	color: #eb0000;
+	font-weight: bold;
+	text-align: center;
+}
+
 shadowedcenter_center{
 	shadow-distance: 2;
 	shadow-blurX: 2;
 	shadow-angle:90;
 }
 small {
-    font-family: RobotoCondensed;
-    font-size: 18px;
-    color: #f8cd01;
-    font-weight: bold;
-    text-align: left;
+	font-family: RobotoCondensed;
+	font-size: 18px;
+	color: #f8cd01;
+	font-weight: bold;
+	text-align: left;
 }
 smallright {
-    font-family: RobotoCondensed;
-    font-size: 18px;
-    color: #f8cd01;
-    font-weight: bold;
-    text-align: right;
+	font-family: RobotoCondensed;
+	font-size: 18px;
+	color: #f8cd01;
+	font-weight: bold;
+	text-align: right;
 }
 smallcenter {
-    font-family: RobotoCondensed;
-    font-size: 18px;
-    color: #f8cd01;
-    font-weight: bold;
-    text-align: center;
+	font-family: RobotoCondensed;
+	font-size: 18px;
+	color: #f8cd01;
+	font-weight: bold;
+	text-align: center;
 }
 dark {
 	font-family: RobotoCondensed;
@@ -101,12 +110,20 @@ whitecenter {
 	text-align: center;
 }
 
+whitemediumcenter {
+	font-family: Roboto;
+	font-size: 20px;
+	color: #c7c7c5;
+	font-weight: medium;
+	text-align: center;
+}
+
 purewhitemedium {
 	font-family: Roboto;
 	font-size: 20px;
 	color: #ffffff;
 	font-weight: medium;
-	text-align: left;	
+	text-align: left;
 }
 
 green {
@@ -131,6 +148,17 @@ greencenter {
 	text-align: center;
 }
 
+shadowedgreencenter {
+	font-family: Roboto;
+	font-size: 20px;
+	color: #deff00;
+	font-weight: normal;
+	text-align: center;
+	shadow-distance: 2;
+	shadow-blurX: 2;
+	shadow-angle: 90;
+}
+
 gray {
 	font-family: RobotoCondensed;
 	font-size: 22px;
@@ -150,6 +178,21 @@ whiteboldcenter {
 	font-family: RobotoCondensed;
 	font-size: 20px;
 	color: #e0e0de;
+	font-weight: bold;
+	text-align: center;
+}
+whiteboldright {
+	font-family: RobotoCondensed;
+	font-size: 20px;
+	color: #e0e0de;
+	font-weight: bold;
+	text-align: right;
+}
+
+whitemediumboldcenter {
+	font-family: RobotoCondensed;
+	font-size: 24px;
+	color: #ffffff;
 	font-weight: bold;
 	text-align: center;
 }
@@ -203,28 +246,52 @@ itemetheral {
 	font-weight: bold;
 	text-align: left;
 }
+victory {
+    font-family: RobotoCondensed;
+    font-size: 24px;
+    color: #673d15;
+    font-weight: bold;
+    text-align: center;
+    shadow-color: #faf328;
+    shadow-blurX: 2;
+    shadow-blurY: 2;
+    shadow-distance: 2;
+    shadow-angle: 90;
+}
+defeat {
+    font-family: RobotoCondensed;
+    font-size: 24px;
+    color: #47360c;
+    font-weight: bold;
+    text-align: center;
+    shadow-color: #d39086;
+    shadow-blurX: 2;
+    shadow-blurY: 2;
+    shadow-distance: 2;
+    shadow-angle: 90;
+}
 levelup {
 	font-family: RobotoCondensed;
 	font-size: 40px;
 	color: #673d15;
 	font-weight: bold;
 	text-align: center;
-    shadow-color: #faf328;
-    shadow-blurX: 2;
-    shadow-blurY: 4;
-    shadow-distance: 2;
-    shadow-angle: 90;
+	shadow-color: #faf328;
+	shadow-blurX: 2;
+	shadow-blurY: 4;
+	shadow-distance: 2;
+	shadow-angle: 90;
 }
 levelupomega_levelup {
-    font-size: 60px;
+	font-size: 60px;
 }
 scroll {
-    font-family: Tahoma;
-    font-size: 25px;
-    color: #d09b4b;
-    text-align: center;
-    shadow-color : #000;
-    shadow-distance : 9;
+	font-family: Tahoma;
+	font-size: 25px;
+	color: #d09b4b;
+	text-align: center;
+	shadow-color : #000;
+	shadow-distance : 9;
 }
 
 newfeaturetitle

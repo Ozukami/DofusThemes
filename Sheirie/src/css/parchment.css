@@ -45,3 +45,28 @@ goodybookletterleft{
 	font-weight: normal;
 	text-align: left;
 }
+
+scrolltitle{
+    font-family: Roboto;
+    font-size: 22px;
+    color: #624025;
+    font-weight: bold;
+    text-align: center;
+}
+
+scrolltext{
+    font-family: Roboto;
+    font-size: 16px;
+    color: #765e44;
+    font-weight: normal;
+    text-align: justify;
+    paddingRight: 5px;
+}
+
+scrolllink{
+    font-family: Roboto;
+    font-size: 18px;
+    color: #deff00;
+    font-weight: bold;
+    text-align: center;
+}

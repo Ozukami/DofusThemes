@@ -5,6 +5,11 @@ p {
 	text-align: left;
 }
 
+.subtitle {
+	font-size: 16;
+	color: #ffffff;
+}
+
 b_p {
 	font-weight: bold;
 }
@@ -64,4 +69,11 @@ text {
 	font-size: 15px;
 	color: #c7c7c5;
 	text-align: left;
+}
+
+quote {
+	font-family: Roboto;
+	font-size: 15px;
+	font-style: italic;
+	color: #9D9D9C;
 }

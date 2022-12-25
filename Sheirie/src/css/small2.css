@@ -19,6 +19,16 @@ right {
 	font-weight: normal;
 	text-align: right;
 }
+
+rightpadding {
+	font-family: Roboto;
+	font-size: 14;
+	color: #c7c7c5;
+	font-weight: normal;
+	text-align: right;
+	padding-right: 5px;
+}
+
 center {
 	font-family: Roboto;
 	font-size: 14;
@@ -36,11 +46,11 @@ bold {
 }
 
 italic {
-    font-family: Roboto;
-    font-size: 14;
-    color: #c7c7c5;
-    text-align: justify;
-    font-style: italic;
+	font-family: Roboto;
+	font-size: 14;
+	color: #c7c7c5;
+	text-align: justify;
+	font-style: italic;
 }
 
 boldleft {
@@ -205,6 +215,14 @@ whiteleft {
 	text-align: left;
 }
 
+whiteright {
+	font-family: Roboto;
+	font-size: 14;
+	color: #ffffff;
+	font-weight: normal;
+	text-align: right;
+}
+
 whitecenter {
 	font-family: Roboto;
 	font-size: 14;
@@ -222,11 +240,22 @@ whitemediumcenter {
 }
 
 darkboldcenter {
-    font-family: Roboto;
-    font-size: 14;
-    color: #3c381b;
-    font-weight: bold;
-    text-align: center;
+	font-family: Roboto;
+	font-size: 14;
+	color: #3c381b;
+	font-weight: bold;
+	text-align: center;
+}
+
+blue {
+	font-family: Roboto;
+	font-size: 14;
+	color: #22f7fd
+	text-align: justify;
+}
+
+blueright_blue{
+	text-align: right;
 }
 
 green {
@@ -241,12 +270,22 @@ greenleft {
 	color: #deff00;
 	text-align: left;
 }
+
+greenleftlight {
+	font-family: Roboto;
+	font-size: 14;
+	color: #deff00;
+	font-weight: lighter;
+	text-align: left;
+}
+
 greenright {
 	font-family: Roboto;
 	font-size: 14;
 	color: #deff00;
 	text-align: right;
 }
+
 greencenter {
 	font-family: Roboto;
 	font-size: 14;
@@ -254,6 +293,7 @@ greencenter {
 	text-align: center;
 	text-decoration: none;
 }
+
 greenunderlinecenter {
 	font-family: Roboto;
 	font-size: 14;
@@ -282,12 +322,42 @@ orange {
 	color: #ebc304;
 	text-align: justify;
 }
+
+orangebold {
+	font-family: Roboto;
+	font-size: 14;
+	color: #ebc304;
+	font-weight: bold;
+	text-align: left;
+}
+
+orangeitalic {
+	font-family: Roboto;
+	font-size: 14;
+	color: #ebc304;
+	font-weight: italic;
+	text-align: left;
+}
+
+itemset_left {
+	color: #feb336;
+}
+
 orangeleft {
 	font-family: Roboto;
 	font-size: 14;
 	color: #ebc304;
 	text-align: left;
 }
+
+orangeleftlight {
+	font-family: Roboto;
+	font-size: 14;
+	color: #ebc304;
+	font-weight: normal;
+	text-align: left;
+}
+
 orangeright {
 	font-family: Roboto;
 	font-size: 14;
@@ -301,17 +371,56 @@ orangecenter {
 	text-align: center;
 }
 
+orangecenterbold {
+	font-family: Roboto;
+	font-size: 14;
+	color: #ebc304;
+	font-weight: bold;
+	text-align: center;
+}
+lightred {
+	font-family: Roboto;
+	font-size: 14;
+	color: #FF5C55;
+	text-align: justify;
+}
+
 red {
 	font-family: Roboto;
 	font-size: 14;
 	color: #eb0000;
 	text-align: justify;
 }
+
+lightredleft {
+	font-family: Roboto;
+	font-size: 14;
+	color: #FF5C55;
+	text-align: left;
+}
+redleft {
+	font-family: Roboto;
+	font-size: 14;
+	color: #eb0000;
+	text-align: left;
+}
+lightredright {
+	font-family: Roboto;
+	font-size: 14;
+	color: #FF5C55;
+	text-align: right;
+}
 redright {
 	font-family: Roboto;
 	font-size: 14;
 	color: #eb0000;
 	text-align: right;
+}
+lightredcenter {
+	font-family: Roboto;
+	font-size: 14;
+	color: #FF5C55;
+	text-align: center
 }
 redcenter {
 	font-family: Roboto;
@@ -423,6 +532,10 @@ grey_p {
 	color: #9b9b9b;
 }
 
+italicgrey_grey {
+	font-style: italic;
+}
+
 greybold_grey {
 	font-weight: bold;
 }
@@ -457,4 +570,24 @@ greencenterfeature_newfeaturecenter {
 rightfeature_newfeaturecenter {
 	color: #c8c8c8;
 	text-align: right;
+}
+
+smalldarkboldcenter_darkboldcenter {
+	font-family: Roboto;
+	font-size: 12;
+	color: #3c381b;
+	font-weight: bold;
+	text-align: center;
+}
+
+bonus {
+	font-family: Roboto;
+	font-size: 14px;
+	color: #52AE3F;
+}
+
+malus {
+	font-family: Roboto;
+	font-size: 14px;
+	color: #CB685E;
 }

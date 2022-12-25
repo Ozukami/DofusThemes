@@ -113,6 +113,14 @@ boldrightwhite {
 	text-align: right;
 }
 
+boldleftwhite {
+	font-family: Tahoma;
+	font-size: 18px;
+	color: #ffffff;
+	font-weight: bold;
+	text-align: left;
+}
+
 boldcenterogrine {
     font-family: Tahoma;
     font-size: 18px;
@@ -359,6 +367,18 @@ brakmar {
 	font-size: 17px;
 	color: #c10000;
 	text-align: left;
+}
+lightred {
+	font-family: Tahoma;
+	font-size: 18px;
+	color: #FF5C55;
+	text-align: left;
+}
+lightredcenter {
+	font-family: Tahoma;
+	font-size: 17px;
+	color: #FF5C55;
+	text-align: center;
 }
 
 /* Classe utilisé dans les popups pour centrer les messages d'erreur [css de base: brakmar] */

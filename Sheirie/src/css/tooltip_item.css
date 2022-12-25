@@ -11,7 +11,12 @@ p {
 .customli {
 	color: #57574f;
 	margin-left: 22;
-	margin-right: 104;
+}
+
+.customlirightmargin {
+	color: #57574f;
+	margin-left: 22;
+	margin-right: 124;
 }
 
 .value {
@@ -29,6 +34,13 @@ p {
 	margin-left: 16;
 }
 
+.subtitlenomargin {
+	font-family: Roboto;
+	font-size: 16;
+	font-weight: bold;
+	color: #dfdfdf;
+}
+
 .bonus {
 	font-family: Roboto;
 	font-size: 15;
@@ -38,7 +50,6 @@ p {
 .bonusvalue {
 	font-family: Roboto;
 	font-size: 15;
-	font-weight: bold;
 	color: #52AE3F;
 }
 
@@ -51,8 +62,32 @@ p {
 .malusvalue {
 	font-family: Roboto;
 	font-size: 15;
-	font-weight: bold;
 	color: #CB685E;
+}
+
+.neutral {
+	font-family: Roboto;
+	font-size: 15;
+	color: #969695;
+}
+
+.neutralvalue {
+	font-family: Roboto;
+	font-size: 15;
+	color: #969695;
+}
+
+.overFm {
+	font-family: Roboto;
+	font-size: 16;
+	font-weight: bold;
+	color: #5dcf45;
+}
+
+.overFmvalue {
+	font-family: Roboto;
+	font-size: 16;
+	color: #5dcf45;
 }
 
 .subeffectleftcolumn {
@@ -73,14 +108,13 @@ p {
 .exoticvalue {
 	font-family: Roboto;
 	font-size: 15;
-	font-weight: bold;
 	color: #658FC4;
 }
 
 .theoretical {
 	font-family: Roboto;
 	font-size: 15;
-	color: #c7c7c5 ;
+	color: #969695 ;
 }
 
 .requirement {
@@ -99,6 +133,13 @@ p {
 	font-family: Roboto;
 	font-size: 15;
 	color: #ebc304;
+}
+
+.importantNotice {
+	font-family: Roboto;
+	font-size: 15;
+	color: #ebc304;
+	margin-left: 32;
 }
 
 .description {
@@ -169,5 +210,68 @@ spellZone {
 }
 
 .contentmargin {
+	margin-right: 126;
+}
+
+.probaright {
+	font-family: Roboto;
+	font-size: 15;
+	text-align: right;
+	leading: -19;
+}
+
+.common {
+	font-family: Roboto;
+	font-size: 15;
+	text-align: right;
+	leading: -19;
+	color: #848480;
+}
+
+.uncommon {
+	font-family: Roboto;
+	font-size: 15;
+	text-align: right;
+	leading: -19;
+	color: #6db213;
+}
+
+.rare {
+	font-family: Roboto;
+	font-size: 15;
+	text-align: right;
+	leading: -19;
+	color: #1B96FF;
+}
+
+.epic {
+	font-family: Roboto;
+	font-size: 15;
+	text-align: right;
+	leading: -19;
+	color: #9400d3;
+}
+
+.legendary {
+	font-family: Roboto;
+	font-size: 15;
+	text-align: right;
+	leading: -19;
+	color: #ffb400;
+}
+
+.descriptionproba {
+	font-family: Roboto;
+	font-size: 15;
+	color: #E6893D;
+	margin-left: 22;
+	margin-right: 75;
+	text-align: left;
+}
+
+.valueLineWithIcon {
+	font-family: Roboto;
+	font-size: 15;
+	color: #c7c7c5;
 	margin-right: 126;
 }
